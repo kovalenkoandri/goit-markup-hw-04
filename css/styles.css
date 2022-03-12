@@ -306,7 +306,7 @@ header {
   padding-bottom: 16px;
 }
 
-.index-h3-p-member-of-team-div::after {
+/* .index-h3-p-member-of-team-div::after {
   display: block;
   content: '';
   width: 206px;
@@ -320,62 +320,54 @@ header {
   background-size: 44px, 44px, 44px, 44px;
   background-position: left center, right 54px center, right 108px center, right 0 center;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+} */
+
+.index-member-of-team-ul-links {
+  display: flex;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+/* justify-content: space-between; */
+
+.index-member-of-team-li-links {
+  display: flex;
 }
 
-/* .li-social-links {
-  display: inline-block;
-  margin-left: 10px;
+.index-member-of-team-li-links:not(:last-child) {
+  margin-right: 10px;
+}
+
+.index-member-of-team-a-links {
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 44px;
+  height: 44px;
+  color: transparent;
 }
 
 .instagram {
-  display: inline-block;
   background-image: url(../images/index/original/svg/instagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  color: rgba(255, 255, 255, 0);
-  background-size: 44px;
+  /* color: rgba(255, 255, 255, 0); */
+  /* background-size: 44px; */
 }
 
 .twitter {
-  display: inline-block;
   background-image: url(../images/index/original/svg/twitter.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  color: rgba(255, 255, 255, 0);
 }
+
 .facebook {
-  display: inline-block;
   background-image: url(../images/index/original/svg/facebook.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  color: rgba(255, 255, 255, 0);
 }
 
 .linkedin {
-  display: inline-block;
   background-image: url(../images/index/original/svg/linkedin.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  color: rgba(255, 255, 255, 0);
-} */
+}
 
 .clients-h2 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.51;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
   padding-bottom: 50px;
 }
 
@@ -401,6 +393,58 @@ header {
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+
+.icon-antenna {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon {
+  width: 350px;
+  height: 350px;
+  color: rgb(17, 16, 15);
+}
+
+.letter {
+  stroke: red;
+  stroke-linejoin: bevel;
+  fill: red;
+  width: 350px;
+  height: 350px;
+}
+
+.bg1 {
+  stroke-linejoin: bevel;
+  fill: rgb(153, 187, 28);
+  stroke: #123edb;
+}
+
+.bg {
+  stroke: black;
+  fill: grey;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.icon:hover .letter {
+  fill: royalblue;
+  stroke: violet;
+  stroke-linejoin: round;
+  stroke-dasharray: 12% 5%;
+}
+
+.icon:hover .bg {
+  fill: currentColor;
+  stroke: greenyellow;
+}
+
+.icon:hover .bg1 {
+  fill: orange;
 }
 
 /* ----------------main portfolio.html---------------- */
@@ -498,8 +542,8 @@ img {
 .footer-wrapper {
   background-color: #2f303a;
   padding: 60px 0;
-  border: 10px solid green;
 }
+/* border: 10px solid green; */
 
 .footer {
   display: flex;
@@ -517,12 +561,6 @@ img {
   color: #fff;
 }
 /* margin-top: 60px; */
-
-/* .footer-address-join-container {
-  display: flex;
-  width: 507px;
-  justify-content: space-between;
-} */
 
 .footer-address {
   font-style: normal;
@@ -551,7 +589,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-self: baseline; */
 }
 
 .footer-p-join {
@@ -586,21 +623,26 @@ img {
   background-size: initial;
   background-repeat: no-repeat;
   border-radius: 50%;
-  /* color: transparent; */
+  color: transparent;
 }
 
-.instagram {
+.footer-a-join:hover,
+.footer-a-join:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-instagram {
   background-image: url(../images/index/original/svg/footer/instagram-f.svg);
 }
 
-.twitter {
+.footer-twitter {
   background-image: url(../images/index/original/svg/footer/twitter-f.svg);
 }
 
-.facebook {
+.footer-facebook {
   background-image: url(../images/index/original/svg/footer/facebook-f.svg);
 }
 
-.linkedin {
+.footer-linkedin {
   background-image: url(../images/index/original/svg/footer/linkedin-f.svg);
 }
