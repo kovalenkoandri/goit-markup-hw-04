@@ -388,12 +388,18 @@ header {
   margin-right: 30px;
 }
 
-.clients-img {
+.clients-svg {
   display: block;
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
+/* .clients-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+} */
 
 .icon-antenna {
   display: inline-block;
