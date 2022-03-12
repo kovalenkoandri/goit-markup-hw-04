@@ -210,19 +210,20 @@ header {
 }
 
 .li-our-features.antenna::before {
-  background-image: url(../images/index/original/svg/antenna.svg);
+  background-image: url(../images/icons.svg#icon-antenna);
+  /* background-image: url(../images/index/original/svg/antenna.svg); */
 }
 
 .li-our-features.clock::before {
-  background-image: url(../images/index/original/svg/clock.svg);
+  background-image: url(../images/icons.svg#icon-clock);
 }
 
 .li-our-features.diagram::before {
-  background-image: url(../images/index/original/svg/diagram.svg);
+  background-image: url(../images/icons.svg#icon-diagram);
 }
 
 .li-our-features.astronaut::before {
-  background-image: url(../images/index/original/svg/astronaut.svg);
+  background-image: url(../images/icons.svg#icon-astronaut);
 }
 
 .index-h3-our-features {
