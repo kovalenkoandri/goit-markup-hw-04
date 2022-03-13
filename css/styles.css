@@ -350,7 +350,6 @@ header {
 
 .index-member-of-team-svg-links:hover,
 .index-member-of-team-svg-links:focus {
-  background-color: var(--accent-color);
   fill: #fff;
 }
 
