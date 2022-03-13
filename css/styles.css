@@ -333,6 +333,7 @@ header {
 .index-member-of-team-li-links:hover,
 .index-member-of-team-li-links:focus {
   background-color: var(--accent-color);
+  color: #fff;
 }
 
 .index-member-of-team-li-links:not(:last-child) {
@@ -350,7 +351,7 @@ header {
 
 .index-member-of-team-svg-links:hover,
 .index-member-of-team-svg-links:focus {
-  fill: #fff;
+  fill: currentColor;
 }
 
 .clients-h2 {
