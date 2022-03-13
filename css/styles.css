@@ -208,6 +208,8 @@ header {
 
 .li-our-features {
   width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
 }
 
 .li-our-features:not(:last-child) {
@@ -228,26 +230,10 @@ header {
   display: block;
   width: 70px;
   height: 70px;
-  background-color: #f5f4fa;
-  /* background-position: center;
-  background-repeat: no-repeat; */
+  background-position: center;
 }
-
-/* .li-our-features.antenna::before {
-  background-image: url(../images/icons.svg#icon-antenna);
-}
-
-.li-our-features.clock::before {
-  background-image: url(../images/icons.svg#icon-clock);
-}
-
-.li-our-features.diagram::before {
-  background-image: url(../images/icons.svg#icon-diagram);
-}
-
-.li-our-features.astronaut::before {
-  background-image: url(../images/icons.svg#icon-astronaut);
-} */
+/* background-color: #f5f4fa; */
+/* background-repeat: no-repeat; */
 
 .index-h3-our-features {
   font-size: 14px;
@@ -347,8 +333,8 @@ header {
   display: flex;
   background-repeat: no-repeat;
   background-position: center;
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
 }
 /* 
 .index-member-of-team-a-links {
