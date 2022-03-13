@@ -230,7 +230,7 @@ header {
   display: block;
   width: 70px;
   height: 70px;
-  background-position: center;
+  margin: 0 auto;
 }
 /* background-color: #f5f4fa; */
 /* background-repeat: no-repeat; */
