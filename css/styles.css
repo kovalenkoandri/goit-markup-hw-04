@@ -226,11 +226,11 @@ header {
 
 .li-our-features-svg {
   display: block;
-  width: 270px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   background-color: #f5f4fa;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-position: center;
+  background-repeat: no-repeat; */
 }
 
 /* .li-our-features.antenna::before {
