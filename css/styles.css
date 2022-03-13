@@ -333,6 +333,7 @@ header {
 .index-member-of-team-li-links:hover,
 .index-member-of-team-li-links:focus {
   background-color: var(--accent-color);
+  fill: #fff;
 }
 
 .index-member-of-team-li-links:not(:last-child) {
@@ -345,32 +346,8 @@ header {
   background-position: center;
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
-/* 
-.index-member-of-team-a-links {
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 44px;
-  height: 44px;
-  color: transparent;
-} */
-
-/* .instagram {
-  background-image: url(../images/icons.svg#icon-instagram);
-}
-
-.twitter {
-  background-image: url(../images/icons.svg#icon-twitter);
-}
-
-.facebook {
-  background-image: url(../images/icons.svg#icon-facebook);
-}
-
-.linkedin {
-  background-image: url(../images/icons.svg#icon-linkedin);
-} */
 
 .clients-h2 {
   font-size: 36px;
