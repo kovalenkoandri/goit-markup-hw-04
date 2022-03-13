@@ -147,7 +147,7 @@ header {
 
 .tel-icon-svg {
   margin-right: 10px;
-  width: 10px;
+  width: 20px;
   height: 16px;
   display: inline-flex;
   fill: var(--secondary-text-color);
@@ -157,7 +157,7 @@ header {
 .mailto-icon-svg:focus,
 .tel-icon-svg:hover,
 .tel-icon-svg:focus {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* ----------------main index.html---------------- */
