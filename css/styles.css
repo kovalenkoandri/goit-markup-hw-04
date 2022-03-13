@@ -408,7 +408,7 @@ header {
 
 .clients-li-a:hover,
 .clients-li-a:focus {
-  stroke: var(--accent-color);
+  border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
 
