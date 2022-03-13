@@ -535,7 +535,6 @@ img {
   width: 44px;
   height: 44px;
 }
-/* display: flex; */
 
 .footer-li-join:not(:last-child) {
   margin-right: 10px;
@@ -548,11 +547,11 @@ img {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-items: center;
-  /* background-position: center;
+  justify-content: center;
+}
+/* background-position: center;
   background-size: initial;
   background-repeat: no-repeat; */
-}
 /* color: transparent; */
 /* width: 44px; */
 /* height: 44px; */
