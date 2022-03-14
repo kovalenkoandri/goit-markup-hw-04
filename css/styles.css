@@ -135,12 +135,12 @@ header {
 
 .mailto-a:hover,
 .mailto-a:focus,
-.mailto-icon-svg:hover,
-.mailto-icon-svg:focus,
+/* .mailto-icon-svg:hover,
+.mailto-icon-svg:focus, */
 .tel-a:hover,
-.tel-a:focus,
-.tel-icon-svg:hover,
-.tel-icon-svg:focus {
+.tel-a:focus
+/* .tel-icon-svg:hover, */
+/* .tel-icon-svg:focus */ {
   color: var(--accent-color);
   fill: currentColor;
 }
