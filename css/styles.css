@@ -336,22 +336,26 @@ header {
 }
 
 .index-member-of-team-li-links {
-  display: flex;
   width: 44px;
   height: 44px;
+}
+
+.index-member-of-team-li-links:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-links {
+  display: flex;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
 }
 
-.index-member-of-team-li-links:hover,
-.index-member-of-team-li-links:focus {
+.team-links:hover,
+.team-links:focus {
   background-color: var(--accent-color);
   color: #fff;
-}
-
-.index-member-of-team-li-links:not(:last-child) {
-  margin-right: 10px;
+  fill: currentColor;
 }
 
 .index-member-of-team-svg-links {
@@ -361,11 +365,6 @@ header {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
-}
-
-.index-member-of-team-svg-links:hover,
-.index-member-of-team-svg-links:focus {
-  fill: currentColor;
 }
 
 .clients-h2 {
@@ -407,6 +406,11 @@ header {
 .clients-li-a:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
+}
+
+.clients-li-a-svg {
+  width: 106px;
+  height: 60px;
 }
 
 /* ----------------main portfolio.html---------------- */
