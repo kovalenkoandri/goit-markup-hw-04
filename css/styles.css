@@ -133,7 +133,7 @@ header {
   align-items: center;
 }
 
-/* .mailto-a:hover,
+.mailto-a:hover,
 .mailto-a:focus,
 .mailto-icon-svg:hover,
 .mailto-icon-svg:focus,
@@ -143,7 +143,7 @@ header {
 .tel-icon-svg:focus {
   color: var(--accent-color);
   fill: currentColor;
-} */
+}
 
 .mailto-icon-svg {
   margin-right: 10px;
