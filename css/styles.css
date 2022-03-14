@@ -118,6 +118,7 @@ header {
 .mail-tel {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .mail-tel-li:not(:last-child) {
@@ -147,7 +148,7 @@ header {
 
 .tel-icon-svg {
   margin-right: 10px;
-  width: 20px;
+  width: 12px;
   height: 16px;
   display: inline-flex;
   fill: var(--secondary-text-color);
