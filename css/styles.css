@@ -214,9 +214,9 @@ header {
 
 .li-our-features {
   width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
 }
+/* height: 120px; */
+/* background-color: #f5f4fa; */
 
 .li-our-features:not(:last-child) {
   margin-right: 30px;
@@ -232,14 +232,22 @@ header {
   background-repeat: no-repeat;
 } */
 
+.li-our-features-svg-div {
+  height: 92px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
 .li-our-features-svg {
-  display: block;
   width: 70px;
   height: 70px;
-  margin: 0 auto;
 }
-/* background-color: #f5f4fa; */
-/* background-repeat: no-repeat; */
+/* margin: 0 auto; */
+/* display: block; */
 
 .index-h3-our-features {
   font-size: 14px;
