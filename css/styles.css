@@ -131,10 +131,14 @@ header {
   text-decoration: none;
 }
 
-.mail-li:hover,
-.mail-li:focus,
-.tel-li:hover,
-.tel-li:focus {
+.mailto-a:hover,
+.mailto-a:focus,
+.mailto-icon-svg:hover,
+.mailto-icon-svg:focus,
+.tel-a:hover,
+.tel-a:focus,
+.tel-icon-svg:hover,
+.tel-icon-svg:focus {
   color: var(--accent-color);
   fill: currentColor;
 }
