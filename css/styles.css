@@ -129,9 +129,11 @@ header {
 .tel-a {
   color: var(--secondary-text-color);
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
-.mailto-a:hover,
+/* .mailto-a:hover,
 .mailto-a:focus,
 .mailto-icon-svg:hover,
 .mailto-icon-svg:focus,
@@ -141,30 +143,23 @@ header {
 .tel-icon-svg:focus {
   color: var(--accent-color);
   fill: currentColor;
-}
+} */
 
 .mailto-icon-svg {
   margin-right: 10px;
   width: 16px;
   height: 12px;
-  display: inline-flex;
-  fill: var(--secondary-text-color);
+  fill: currentColor;
 }
+/* display: inline-flex; */
 
 .tel-icon-svg {
   margin-right: 10px;
   width: 12px;
   height: 16px;
-  display: inline-flex;
-  fill: var(--secondary-text-color);
-}
-
-/* .mailto-icon-svg:hover,
-.mailto-icon-svg:focus,
-.tel-icon-svg:hover,
-.tel-icon-svg:focus {
   fill: currentColor;
-} */
+}
+/* display: inline-flex; */
 
 /* ----------------main index.html---------------- */
 
@@ -233,7 +228,7 @@ header {
 } */
 
 .li-our-features-svg-div {
-  height: 92px;
+  height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
   display: flex;
@@ -349,6 +344,8 @@ header {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .team-links:hover,
@@ -364,7 +361,7 @@ header {
   background-position: center;
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .clients-h2 {
