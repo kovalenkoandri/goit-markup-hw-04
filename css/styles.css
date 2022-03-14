@@ -134,8 +134,13 @@ header {
 .mailto-a:hover,
 .mailto-a:focus,
 .tel-a:hover,
-.tel-a:focus {
+.tel-a:focus,
+.mailto-icon-svg:hover,
+.mailto-icon-svg:focus,
+.tel-icon-svg:hover,
+.tel-icon-svg:focus {
   color: var(--accent-color);
+  fill: currentColor;
 }
 
 .mailto-icon-svg {
@@ -154,12 +159,12 @@ header {
   fill: var(--secondary-text-color);
 }
 
-.mailto-icon-svg:hover,
+/* .mailto-icon-svg:hover,
 .mailto-icon-svg:focus,
 .tel-icon-svg:hover,
 .tel-icon-svg:focus {
   fill: currentColor;
-}
+} */
 
 /* ----------------main index.html---------------- */
 
