@@ -501,9 +501,13 @@ img {
   padding: 60px 0;
 }
 
-.footer {
+.container-footer {
   display: flex;
   align-items: baseline;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-logo-address-container {
