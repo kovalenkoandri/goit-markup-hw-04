@@ -357,9 +357,6 @@ header {
 }
 
 .index-member-of-team-svg-links {
-  display: flex;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 20px;
   height: 20px;
   fill: currentColor;
